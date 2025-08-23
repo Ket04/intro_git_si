@@ -20,6 +20,16 @@ git diff --staged - mostra o que está de diferente dos arquivos preparados para
 
 git checkout (hash do commit) - navega entre os commits feitos, utilize main para voltar ao mais atual.
 
+git branch - lista as branchs existentes
+
+ git branch (nome) - cria uma nova branch
+
+ git switch (nome da branch) - navega entre as branchs
+
+ git merge (nome da branch que vc quer mesclar com a main) - junta as alterações com a branch main, antes precisa ser feito o commit dentro da branch com as alterações, retornar a main e depois rodar o merge!
+
+ 
+
 # **CUIDADO**
 
 git reset HEAD~1 --soft - Deleta o registro do commit feito, menos suas alterações realizadas (o que estiver dentro do staged ou esperando para ser enviado pra lá).
